@@ -23,8 +23,8 @@ function redirectToWhatsApp() {
       const profileDiv = document.createElement('div');
       profileDiv.classList.add('profile');
   
-      const profileImg = document.createElement('img');
-      profileImg.src = 'img/fotoperfil.jpg'; // Caminho da imagem do perfil
+      const profileImg = document.createElement('IMG');
+      profileImg.src = 'IMG/fotoperfil.jpg'; // Caminho da imagem do perfil
       profileImg.alt = 'Foto do Perfil';
   
       const profileInfo = document.createElement('div');
